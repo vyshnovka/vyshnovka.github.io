@@ -3,6 +3,48 @@
     src: url('../fonts/Pixeltype.ttf');
 }
 
-h1 {
-   font-family: Pixeltype;
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Pixeltype;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d1e5eb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    padding-left: 7%;
+    width: 43%;
+    text-align: right;
+}
+
+.big-text {
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 2.5vw;
+}
+
+.picture {
+    padding-right: 7%;
+    width: 43%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.me {
+    width: 40vw;
+    height: 40vw;
 }
