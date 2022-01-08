@@ -11,7 +11,6 @@ Feel free to use it as a template, but don't forget to mention me somewhere.
 
 1. Star this repo. This is the most impostant step!
 2. Clone this repository using `git clone https://github.com/vyshnovka/vyshnovka.github.io.git` in Git Bash.    
-Or you can use GitHub Desktop.
 3. Enjoy!
 
 ## Credits
