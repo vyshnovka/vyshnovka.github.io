@@ -8,11 +8,11 @@
 }
   
 ::-webkit-scrollbar-track {
-    background: #e6f6fc; 
+    background: #eef9fd; 
 }
    
 ::-webkit-scrollbar-thumb {
-    background: #1a1a1f; 
+    background: #22222a; 
 }
 
 body {
@@ -41,7 +41,7 @@ body {
 .big-text {
     font-size: 5vw;
     font-weight: bold;
-    color: #1a1a1f;
+    color: #22222a;
 }
 
 .small-text {
@@ -81,7 +81,7 @@ body {
 }
 
 .menu a {
-    color: #1a1a1f;
+    color: #2b2b35;
     text-decoration: none;
 }
 
@@ -94,17 +94,17 @@ body {
 .education {
     width: 100vw;
     height: 100vh;
-    background-color: #22222a;
+    background-color: #2b2b35;
 }
 
 .skills {
     width: 100vw;
     height: 100vh;
-    background-color: #d1e5eb;
+    background-color: #2b2b35;
 } 
 
 .projects {
     width: 100vw;
     height: 100vh;
-    background-color: #22222a;
+    background-color: #2b2b35;
 }
