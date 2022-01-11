@@ -3,6 +3,10 @@
     src: url('../fonts/Pixeltype.ttf');
 }
 
+:root {
+    --animate-delay: 0.9s;
+}
+
 ::-webkit-scrollbar {
     width: 0.5vw;
 }
