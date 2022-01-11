@@ -2,9 +2,11 @@
 <html>
 <head>
     <title>vyshnovka's awesome portfolio</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/alien.png" />
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="http://www.s-sd.ru/js/jquery.js"></script>
     <script src="js/copy.js"></script>
+    <script src="js/parallax.js"></script>
 </head>
 <body>
     <div class="about" id="about">
@@ -12,7 +14,7 @@
             <p class="big-text">Howdy, partner!</p>
             <p class="small-text">It's me, <b>Victoria</b>, and I'm a beginner developer.</p>
             <p class="small-text">I'm currently (and protractedly) interested in <b>Web applications</b>, <b>Game development</b> and <b>3D modeling</b>.</p>
-            <p class="small-text link" onclick="copyEmail()">Click here to copy my email.</p>
+            <p class="small-text link" id="copy-email" onclick="copyEmail()">Click <u>here</u> to copy my email.</p>
         </div>
         <div class="picture">
             <div class="menu">
