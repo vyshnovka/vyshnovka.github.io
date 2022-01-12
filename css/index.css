@@ -16,6 +16,14 @@ body {
     font-family: Pixeltype;
 }
 
+.visible {
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+}
+
 
 /* CUSTOM SCROLLBAR */
 
