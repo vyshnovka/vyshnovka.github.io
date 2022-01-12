@@ -91,7 +91,7 @@
     padding: 0 3vw 0.7vw 3vw;
     width: 40%;
     font-size: 1.5vw;
-    border-top: 0.4vw solid #22222a;
+    border-top: 0.3vw solid #22222a;
     position: relative;
     color: #d1e5eb;
 }
@@ -121,7 +121,7 @@
 }
 
 .educ-text:nth-child(odd) {
-    border-right: 0.4vw solid #22222a;
+    border-right: 0.3vw solid #22222a;
     padding-left: 0;
 }
 
@@ -131,7 +131,7 @@
 }
 
 .educ-text:nth-child(even) {
-    border-left: 0.4vw solid #22222a;
+    border-left: 0.3vw solid #22222a;
     padding-right: 0;
 }
 
