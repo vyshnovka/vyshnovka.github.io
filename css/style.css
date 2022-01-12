@@ -1,0 +1,163 @@
+/* HEADER WITH PICTURE */
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    background-color: #d1e5eb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    padding-left: 7%;
+    width: 43%;
+    text-align: right;
+}
+
+.big-text {
+    font-size: 5vw;
+    font-weight: bold;
+    color: #22222a;
+}
+
+.small-text {
+    font-size: 2.5vw;
+    color: #2b2b35;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.picture {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.menu {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 2.5vw 2.5vw;
+    font-size: 2.5vw;
+}
+
+.menu-item:hover {
+    font-weight: bold;
+}
+
+.menu a {
+    color: #2b2b35;
+    text-decoration: none;
+}
+
+.me {
+    margin-right: 15%;
+    width: 80vh;
+    height: 80vh;
+}
+
+
+/* EDUCATION TIMELINE */
+
+.education {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b2b35;
+}
+
+.educ-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.educ-text {
+    font-size: 1.5vw;
+    border-top: 3px solid #d1e5eb;
+    margin: 0;
+    padding: 1.5vw 3vw;
+    position: relative;
+    color: #d1e5eb;
+}
+
+.educ-text:before {
+    padding: 1vw 1vw;
+    position: absolute;
+    width: 9vw;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.ed1:before {
+    content:"2018 - 2021";
+}
+
+.ed2:before {
+    content:"2018 - 2021";
+}
+
+.ed3:before {
+    content:"2018 - 2021";
+}
+
+.ed4:before {
+    content:"2021 - current";
+}
+
+.educ-text:nth-child(odd) {
+    border-right: 3px solid;
+    padding-left: 0;
+}
+
+.educ-text:nth-child(odd):before {
+    left: 100%;
+    text-align: left;
+}
+
+.educ-text:nth-child(even) {
+    border-left: 3px solid;
+    padding-right: 0;
+}
+
+.educ-text:nth-child(even):before {
+    right: 100%;
+    text-align: right;
+}
+
+.educ-text:first-child {
+    border-top: 0;
+}
+
+
+/* SKILLS IMAGES */
+
+.skills {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b2b35;
+} 
+
+
+/* PROJECT BLOCKS */
+
+.projects {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b2b35;
+}
