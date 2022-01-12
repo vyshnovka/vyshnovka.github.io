@@ -88,20 +88,20 @@
 }
 
 .educ-text {
+    padding: 0 3vw 0.7vw 3vw;
+    width: 40%;
     font-size: 1.5vw;
     border-top: 3px solid #d1e5eb;
-    margin: 0;
-    padding: 1.5vw 3vw;
     position: relative;
     color: #d1e5eb;
 }
 
 .educ-text:before {
-    padding: 1vw 1vw;
+    padding: 3vw 1vw;
     position: absolute;
     width: 9vw;
     font-size: 1.5vw;
-    color: white;
+    color: #d1e5eb;
 }
 
 .ed1:before {
@@ -109,11 +109,11 @@
 }
 
 .ed2:before {
-    content:"2018 - 2021";
+    content:"2019";
 }
 
 .ed3:before {
-    content:"2018 - 2021";
+    content:"2021";
 }
 
 .ed4:before {
@@ -142,6 +142,12 @@
 
 .educ-text:first-child {
     border-top: 0;
+}
+
+.edu-name {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
 }
 
 
