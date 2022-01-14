@@ -79,8 +79,8 @@
 }
 
 .educ-block {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +89,7 @@
 
 .educ-text {
     padding: 0 3vw 0.7vw 3vw;
-    width: 40%;
+    width: 40vw;
     font-size: 1.5vw;
     border-top: 0.3vw solid #22222a;
     position: relative;

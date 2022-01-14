@@ -17,7 +17,7 @@ function inViewport() {
 
         if (div < (bottom + $(window).height())) {
             $(this).removeClass('to-show-delay hidden');
-            $(this).addClass('visible animate__animated animate__fadeInDown' + animDelay);
+            $(this).addClass('visible animate__animated animate__fadeIn' + animDelay);
             delay++;
         }
     });
