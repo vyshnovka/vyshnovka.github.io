@@ -24,6 +24,11 @@ body {
     opacity: 0;
 }
 
+.no-margin {
+    padding: 0;
+    margin: 0;
+}
+
 
 /* CUSTOM SCROLLBAR */
 

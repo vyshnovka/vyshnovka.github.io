@@ -88,8 +88,12 @@
 }
 
 .educ-text {
-    padding: 0 3vw 0.7vw 3vw;
+    padding: 0 3vw;
     width: 40vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     font-size: 1.5vw;
     border-top: 0.3vw solid #22222a;
     position: relative;
@@ -97,7 +101,7 @@
 }
 
 .educ-text:before {
-    padding: 3vw 1vw;
+    padding: 0 1vw;
     position: absolute;
     width: 9vw;
     font-size: 1.5vw;
@@ -148,6 +152,10 @@
     font-size: 2.5vw;
     font-weight: bold;
     color: white;
+}
+
+.educ-desc p:not(:first-child) {
+    padding-top: 2vh;
 }
 
 
