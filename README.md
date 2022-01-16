@@ -16,4 +16,5 @@ Feel free to use it as a template, but don't forget to mention me somewhere.
 
 ## Credits
 
-Pixel picture of me was created [here](https://picrew.me/image_maker/112842).
+[Pixel Avatar](https://picrew.me/image_maker/112842) image maker created by **viiolaceus**.    
+[Pixeltype](https://www.dafont.com/pt/pixeltype.font) font made by **TheJman0205**.
