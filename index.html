@@ -10,21 +10,22 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/copy.js"></script>
     <script src="js/delay.js"></script>
+    <script src="js/menu.js"></script>
 </head>
 
 <body>
     <div class="container" id="about">
         <div class="menu">
-            <a href="#about" onclick="menuItem()">
+            <a href="#about" class="bold" onclick="menuItem(this)">
                 <p class="menu-item">About</p>
             </a>
-            <a href="#education" onclick="menuItem()">
+            <a href="#education" onclick="menuItem(this)">
                 <p class="menu-item">Education</p>
             </a>
-            <a href="#skills" onclick="menuItem()">
+            <a href="#skills" onclick="menuItem(this)">
                 <p class="menu-item">Skills</p>
             </a>
-            <a href="#projects" onclick="menuItem()">
+            <a href="#projects" onclick="menuItem(this)">
                 <p class="menu-item">Projects</p>
             </a>
         </div>
