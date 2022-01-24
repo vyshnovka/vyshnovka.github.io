@@ -13,32 +13,31 @@
 </head>
 
 <body>
-    <div class="about" id="about">
-        <div class="info">
-            <p class="big-text animate__animated animate__fadeIn animate__delay-1s">Howdy, partner!</p>
-            <p class="small-text animate__animated animate__fadeIn animate__delay-2s">It's me, <b>Victoria</b>, and I'm
-                a beginner developer.</p>
-            <p class="small-text animate__animated animate__fadeIn animate__delay-2s">I'm currently (and protractedly)
-                interested in <b>Web applications</b>, <b>Game development</b> and <b>3D modeling</b>.</p>
-            <p class="small-text link animate__animated animate__fadeIn animate__delay-2s" id="copy-email"
-                onclick="copyEmail()">Click <u>here</u> to copy my email.</p>
+    <div class="container" id="about">
+        <div class="menu">
+            <a href="#about" onclick="menuItem()">
+                <p class="menu-item">About</p>
+            </a>
+            <a href="#education" onclick="menuItem()">
+                <p class="menu-item">Education</p>
+            </a>
+            <a href="#skills" onclick="menuItem()">
+                <p class="menu-item">Skills</p>
+            </a>
+            <a href="#projects" onclick="menuItem()">
+                <p class="menu-item">Projects</p>
+            </a>
         </div>
-        <div class="picture">
-            <div class="menu">
-                <a href="#about">
-                    <p class="menu-item">About</p>
-                </a>
-                <a href="#education">
-                    <p class="menu-item">Education</p>
-                </a>
-                <a href="#skills">
-                    <p class="menu-item">Skills</p>
-                </a>
-                <a href="#projects">
-                    <p class="menu-item">Projects</p>
-                </a>
+        <div class="about">
+            <div class="info">
+                <p class="big-text animate__animated animate__fadeIn animate__delay-1s">Howdy, partner!</p>
+                <p class="small-text animate__animated animate__fadeIn animate__delay-2s">It's me, <b>Victoria</b>, and I'm a beginner developer.</p>
+                <p class="small-text animate__animated animate__fadeIn animate__delay-2s">I'm currently (and protractedly) interested in <b>Web applications</b>, <b>Game development</b> and <b>3D modeling</b>.</p>
+                <p class="small-text link animate__animated animate__fadeIn animate__delay-2s" id="copy-email" onclick="copyEmail()">Click <u>here</u> to copy my email.</p>
             </div>
-            <img class="me animate__animated animate__fadeInRight animate__slow" src="img/picture.png" alt="my awesome picture">
+            <div class="picture">
+                <img class="me animate__animated animate__fadeInRight animate__slow" src="img/picture.png" alt="my awesome picture">
+            </div>
         </div>
     </div>
 
