@@ -34,7 +34,6 @@
 .about {
     width: 100vw;
     height: 90vh;
-    background-color: #d1e5eb;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -83,7 +82,6 @@
 .education {
     width: 100vw;
     height: 100vh;
-    background-color: #2b2b35;
 }
 
 .educ-block {
@@ -172,7 +170,6 @@
 .skills {
     width: 100vw;
     height: 100vh;
-    background-color: #2b2b35;
 } 
 
 
@@ -181,7 +178,6 @@
 .projects {
     width: 100vw;
     height: 100vh;
-    background-color: #2b2b35;
 }
 
 
