@@ -1,14 +1,7 @@
-/* HEADER WITH PICTURE */
-
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+/* MENU AND WORK ZONE*/
 
 .menu {
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     display: flex;
     flex-direction: row;
@@ -24,12 +17,19 @@
 .menu-item {
     margin: 2.5vw 2.5vw;
     font-size: 2.5vw;
+    color: #2b2b35;
+    cursor: pointer;
 }
 
-.menu a {
-    color: #2b2b35;
-    text-decoration: none;
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
+
+
+/* INFO WITH PICTURE */
 
 .about {
     width: 100vw;
