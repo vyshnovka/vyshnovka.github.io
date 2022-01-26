@@ -14,18 +14,18 @@
 </head>
 
 <body>
-    <div class="container" id="about">
+    <div class="container">
         <div class="menu">
-            <a href="#about" class="bold" onclick="menuItem(this)">
+            <a href="#about" class="bold" id="about" onclick="menuItem(this); show(this.id);">
                 <p class="menu-item">About</p>
             </a>
-            <a href="#education" onclick="menuItem(this)">
+            <a href="#education" id="education" onclick="menuItem(this); show(this.id);">
                 <p class="menu-item">Education</p>
             </a>
-            <a href="#skills" onclick="menuItem(this)">
+            <a href="#skills" id="skills" onclick="menuItem(this); show(this.id);">
                 <p class="menu-item">Skills</p>
             </a>
-            <a href="#projects" onclick="menuItem(this)">
+            <a href="#projects" id="projects" onclick="menuItem(this); show(this.id);">
                 <p class="menu-item">Projects</p>
             </a>
         </div>
