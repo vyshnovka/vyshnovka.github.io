@@ -1,4 +1,4 @@
-/* GLOBAL SETTINGS */
+/** GLOBAL SETTINGS */
 
 @font-face { 
     font-family: Pixeltype; 
@@ -35,7 +35,7 @@ body {
 }
 
 
-/* CUSTOM SCROLLBAR */
+/** CUSTOM SCROLLBAR */
 
 /* :root {
     --animate-delay: 0.9s;

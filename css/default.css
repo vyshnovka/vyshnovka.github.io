@@ -1,4 +1,4 @@
-/* MENU AND WORK ZONE*/
+/** MENU AND CONTAINER */
 
 .menu {
     width: 100vw;
@@ -29,7 +29,7 @@
 }
 
 
-/* INFO WITH PICTURE */
+/** INFO WITH PICTURE */
 
 .about {
     width: 100%;
@@ -72,12 +72,12 @@
 
 .me {
     margin-right: 15%;
-    width: 80vh;
-    height: 80vh;
+    width: 40vw;
+    height: 40vw;
 }
 
 
-/* EDUCATION TIMELINE */
+/** EDUCATION TIMELINE */
 
 .education {
     width: 100vw;
@@ -165,7 +165,7 @@
 }
 
 
-/* SKILLS IMAGES */
+/** SKILLS IMAGES */
 
 .skills {
     width: 100vw;
@@ -173,7 +173,7 @@
 } 
 
 
-/* PROJECT BLOCKS */
+/** PROJECT BLOCKS */
 
 .projects {
     width: 100vw;
@@ -181,7 +181,7 @@
 }
 
 
-/* FOOTER */
+/** FOOTER */
 
 .footer {
     width: 100%;
