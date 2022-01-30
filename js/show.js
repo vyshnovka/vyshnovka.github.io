@@ -1,5 +1,6 @@
 function show(element) {
-    alert(element);
-    
-    // TODO set "display: none" to blocks when menu item choosen
+    $(".container").children().hide();
+    $("." + element).show();
+
+    // TODO add transition and animations
 }
