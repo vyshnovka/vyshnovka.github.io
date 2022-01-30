@@ -13,6 +13,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    overflow-y: scroll;
     font-family: Pixeltype;
     background-color: #d1e5eb;
 }
@@ -46,7 +47,7 @@ body {
 }
   
 ::-webkit-scrollbar-track {
-    background: #edf7fa; 
+    background: #f8fdff; 
 }
    
 ::-webkit-scrollbar-thumb {
