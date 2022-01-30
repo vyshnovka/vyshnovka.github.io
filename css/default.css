@@ -26,6 +26,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    bottom: 0;
 }
 
 
@@ -72,7 +74,7 @@
 
 .me {
     margin-right: 15%;
-    margin-top: 4.2vw;
+    margin-top: 2.8vw;
     width: 40vw;
     height: 40vw;
 }
