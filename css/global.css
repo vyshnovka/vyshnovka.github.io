@@ -18,10 +18,6 @@ body {
     background-color: #d1e5eb;
 }
 
-.no-display {
-    display: none;
-}
-
 .no-margin {
     padding: 0;
     margin: 0;
