@@ -18,12 +18,8 @@ body {
     background-color: #d1e5eb;
 }
 
-.visible {
-    opacity: 1;
-}
-
-.hidden {
-    opacity: 0;
+.no-display {
+    display: none;
 }
 
 .no-margin {
