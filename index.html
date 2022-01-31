@@ -5,7 +5,8 @@
     <title>vyshnovka's awesome portfolio</title>
     <link rel="shortcut icon" href="img/alien.png" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- TODO add animations -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/default.css">
     <!-- TODO media query for small screens -->
@@ -30,20 +31,21 @@
     <div class="container">
         <div class="about" id="about">
             <div class="info">
-                <p class="big-text animate__animated animate__fadeIn animate__delay-1s">Howdy, partner!</p>
-                <p class="small-text animate__animated animate__fadeIn animate__delay-2s">It's me, <b>Victoria</b>, and
+                <p class="big-text">Howdy, partner!</p>
+                <p class="small-text">It's me, <b>Victoria</b>, and
                     I'm a beginner developer.</p>
-                <p class="small-text animate__animated animate__fadeIn animate__delay-2s">I'm currently (and
+                <p class="small-text">I'm currently (and
                     protractedly) interested in <b>Web applications</b>, <b>Game development</b> and <b>3D modeling</b>.
                 </p>
-                <p class="small-text link animate__animated animate__fadeIn animate__delay-2s" id="copy-email"
+                <p class="small-text link" id="copy-email"
                     onclick="copyEmail()">Click <u>here</u> to copy my email.</p>
             </div>
             <div class="picture">
-                <img class="me animate__animated animate__fadeInRight" src="img/picture.png" alt="my awesome picture">
+                <img class="me" src="img/picture.png" alt="my awesome picture">
             </div>
         </div>
 
+        <!-- ?maybe delete education info and write short summary (PDF download) -->
         <div class="resume" id="resume" style="display: none;">
             <div class="education">
                 <div class="educ-text educ-date1">
@@ -86,10 +88,31 @@
         </div>
 
         <div class="work" id="work" style="display: none;">
-            <p>Here would be some previews of my projects!</p>
+            <div class="project-block">
+                <div class="project long">
+
+                </div>
+            </div>
+            <div class="project-block">
+                <div class="project short">
+                    
+                </div>
+                <div class="project short">
+                    
+                </div>
+            </div>
+            <div class="project-block">
+                <div class="project short">
+                    
+                </div>
+                <div class="project short">
+                    
+                </div>
+            </div>
         </div>
 
         <div class="contact" id="contact" style="display: none;">
+            <!-- TODO facebook, github, linkedin, discord -->
             <p>Contact me via email, please. I'll add other options soon.</p>
         </div>
     </div>
