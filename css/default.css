@@ -191,8 +191,16 @@
 
 .project {
     width: 100%;
-    background-image: url("../img/placeholder.png");
-    background-position: center;
+    cursor: pointer;
+    background-size: 450px 450px;
+    background-image: url(http://www.placehold.it/450x450);
+    background-position: 0px 0px;
+    transition: all .2s ease-in-out;
+}
+
+.project:hover {
+    background-size: 550px 550px;
+    background-position: -50px -50px;
 }
 
 .long {
