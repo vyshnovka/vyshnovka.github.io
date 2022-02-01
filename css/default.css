@@ -192,15 +192,15 @@
 .project {
     width: 100%;
     cursor: pointer;
-    background-size: 450px 450px;
+    background-size: 25vw 35vw;
     background-image: url(http://www.placehold.it/450x450);
     background-position: 0px 0px;
     transition: all .2s ease-in-out;
 }
 
 .project:hover {
-    background-size: 550px 550px;
-    background-position: -50px -50px;
+    background-size: 27vw 37vw;
+    background-position: -1vw -1vw;
 }
 
 .long {
