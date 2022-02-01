@@ -191,7 +191,8 @@
 
 .project {
     width: 100%;
-    background-color: black;
+    background-image: url("../img/placeholder.png");
+    background-position: center;
 }
 
 .long {
