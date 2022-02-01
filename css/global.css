@@ -30,7 +30,7 @@ body {
 
 /** CUSTOM SCROLLBAR */
 
-:root {
+/* :root {
     --animate-delay: 0.9s;
 }
 
@@ -44,4 +44,4 @@ body {
    
 ::-webkit-scrollbar-thumb {
     background: #22222a; 
-}
+} */
