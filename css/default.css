@@ -195,24 +195,32 @@
 .project {
     width: 100%;
     cursor: pointer;
-    background-size: 25vw 40vw;
-    background-image: url(http://www.placehold.it/450x450);
-    background-position: 0 -5vw;
     transition: all .3s ease-in-out;
 }
 
 .project:hover {
-    background-size: 26vw 41.5vw;
-    background-position: -0.5vw -5.5vw;
     filter: blur(4px);
 }
 
 .long {
     height: 100%;
+    background-size: 25vw 40vw;
+    background-position: 0 -5vw;
+}
+
+.long:hover {
+    background-size: 26vw 41.5vw;
+    background-position: -0.5vw -5.5vw;
 }
 
 .short {
     height: 45%;
+    background-size: 25vw 20vw;
+    background-position: center;
+}
+
+.short:hover {
+    background-size: 26vw 21vw;
 }
 
 .project1 {
@@ -220,19 +228,19 @@
 }
 
 .project2 {
-    
+    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
 }
 
 .project3 {
-    
+    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
 }
 
 .project4 {
-    
+    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
 }
 
 .project5 {
-    
+    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
 }
 
 
