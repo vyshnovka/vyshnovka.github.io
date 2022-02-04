@@ -5,9 +5,8 @@
     height: 10vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    background-color: #d1e5eb;
 }
 
 .menu:first-child {
@@ -22,7 +21,8 @@
 }
 
 .container {
-    width: 100vw;
+    padding: 0 10vw;
+    width: 80vw;
     height: 90vh;
     display: flex;
     flex-direction: row;
@@ -33,11 +33,10 @@
 }
 
 
-/** INFO WITH PICTURE */
+/** GREETING PAGE */
 
 .info {
-    padding-left: 10%;
-    width: 40%;
+    width: 50%;
     text-align: right;
 }
 
@@ -60,14 +59,10 @@
     width: 50%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
-    justify-content: flex-end;
 }
 
 .me {
-    margin-right: 15%;
-    margin-top: 2.8vw;
     width: 40vw;
     height: 40vw;
 }
