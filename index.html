@@ -23,28 +23,26 @@
     <div class="menu">
         <p class="menu-item bold" onclick="menuItem(this); show('about');">About</p>
         <p class="menu-item" onclick="menuItem(this); show('resume');">Resume</p>
-        <p class="menu-item" onclick="menuItem(this); show('work');">Work</p>
+        <p class="menu-item" onclick="menuItem(this); show('work');">Projects</p>
         <p class="menu-item" onclick="menuItem(this); show('contact');">Contact me</p>
     </div>
 
-    <div class="container">
-        <div class="about" id="about">
-            <div class="info">
-                <p class="big-text">Howdy, partner!</p>
-                <p class="small-text">It's me, <b>Victoria</b>, and I'm a beginner developer.</p>
-                <p class="small-text">I'm currently (and protractedly) interested in <b>Web applications</b>, <b>Game development</b> and <b>3D modeling</b>.
-                </p>
-                <p class="small-text link" id="copy-email"
-                    onclick="copyEmail()">Click <u>here</u> to copy my email.</p>
-            </div>
-            <div class="picture">
-                <img class="me" src="img/picture.png" alt="my awesome picture">
-            </div>
+    <div class="container" id="about">
+        <div class="info">
+            <p class="big-text">Howdy, partner!</p>
+            <p class="small-text">It's me, <b>Victoria</b>, and I'm a beginner developer.</p>
+            <p class="small-text">I'm currently (and protractedly) interested in <b>Web applications</b>, <b>Game development</b> and <b>3D modeling</b>.</p>
+            <p class="small-text link" id="copy-email" onclick="copyEmail()">Click <u>here</u> to copy my email.</p>
         </div>
 
-        <!-- ?maybe delete education info and write short summary (PDF download) -->
-        <!-- <div class="resume" id="resume" style="display: none;">
-            <div class="education">
+        <div class="picture">
+            <img class="me" src="img/picture.png" alt="My awesome picture, which is not here for some reason.">
+        </div>
+    </div>
+
+    <div class="container" id="resume" style="display: none;">
+        <!-- ?maybe delete education info -->
+        <!-- <div class="education">
                 <div class="educ-text educ-date1">
                     <div>
                         <p class="educ-name no-margin">Moldova State University</p>
@@ -81,37 +79,35 @@
                         <p class="no-margin"><i>Visual programming, Machine learning, Web technologies</i></p>
                     </div>
                 </div>
-            </div>
-        </div> -->
+            </div> -->
+    </div>
 
-        <div class="work" id="work" style="display: none;">
-            <div class="project-block">
-                <div class="project long project1" onClick="goLink('https://vyshnovka.github.io/flappy-bird/')">
+    <div class="container" id="work" style="display: none;">
+        <div class="project-block">
+            <div class="project long project1" onClick="goLink('https://vyshnovka.github.io/flappy-bird/')">
 
-                </div>
-            </div>
-            <div class="project-block">
-                <div class="project short project2">
-                    
-                </div>
-                <div class="project short project3">
-                    
-                </div>
-            </div>
-            <div class="project-block">
-                <div class="project short project4">
-                    
-                </div>
-                <div class="project short project5">
-                    
-                </div>
             </div>
         </div>
+        <div class="project-block">
+            <div class="project short project2" onClick="goLink('https://vyshnovka.github.io/helix-jump/')">
 
-        <div class="contact" id="contact" style="display: none;">
-            <!-- TODO facebook, github, linkedin, discord -->
-            <p>Contact me via email, please. I'll add other options soon.</p>
+            </div>
+            <div class="project short project3">
+
+            </div>
         </div>
+        <div class="project-block">
+            <div class="project short project4">
+
+            </div>
+            <div class="project short project5">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact" style="display: none;">
+        <!-- TODO facebook, github, linkedin, discord -->
     </div>
 </body>
 

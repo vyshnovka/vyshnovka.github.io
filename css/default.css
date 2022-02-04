@@ -5,7 +5,7 @@
     height: 10vh;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     background-color: #d1e5eb;
 }
@@ -15,7 +15,7 @@
 }
 
 .menu-item {
-    margin: 2.5vw 2.5vw;
+    margin: 2.5vw;
     font-size: 2.5vw;
     color: #2b2b35;
     cursor: pointer;
@@ -23,8 +23,9 @@
 
 .container {
     width: 100vw;
-    height: auto;
+    height: 90vh;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -34,18 +35,9 @@
 
 /** INFO WITH PICTURE */
 
-.about {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
 .info {
-    padding-left: 7%;
-    width: 43%;
+    padding-left: 10%;
+    width: 40%;
     text-align: right;
 }
 
@@ -83,14 +75,9 @@
 
 /** EDUCATION TIMELINE */
 
-.resume {
-    width: 100%;
-    height: auto;
-}
-
 /* TODO make it fit and look better */
 /* ?maybe delete all the education info */
-.education {
+/* .education {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -168,20 +155,10 @@
 
 .educ-desc p:not(:first-child) {
     padding-top: 2vh;
-}
+} */
 
 
 /** PROJECT BLOCKS */
-
-.work {
-    margin: 0 5vw 5vw 5vw;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 .project-block {
     width: 25vw;
@@ -204,23 +181,14 @@
 
 .long {
     height: 100%;
-    background-size: 25vw 40vw;
-    background-position: 0 -5vw;
-}
-
-.long:hover {
-    background-size: 26vw 41.5vw;
-    background-position: -0.5vw -5.5vw;
+    background-size: cover;
+    background-position: top;
 }
 
 .short {
     height: 45%;
-    background-size: 25vw 20vw;
-    background-position: center;
-}
-
-.short:hover {
-    background-size: 26vw 21vw;
+    background-size: cover;
+    background-position: top;
 }
 
 .project1 {
@@ -228,7 +196,7 @@
 }
 
 .project2 {
-    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
+    background-image: url("../img/helix-jump.png");
 }
 
 .project3 {
