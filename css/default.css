@@ -68,7 +68,7 @@
 }
 
 
-/** EDUCATION TIMELINE */
+/** RESUME PAGE */
 
 /* TODO make it fit and look better */
 /* ?maybe delete all the education info */
@@ -155,55 +155,40 @@
 
 /** PROJECT BLOCKS */
 
+.apps {
+    margin-left: 7vw;
+    width: 23vw;
+    height: 100%;
+}
+
+.games {
+    width: 50vw;
+    height: 100%;
+}
+
+.header {
+    margin: 3vw 0 1vw 0;
+    width: 100%;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #22222a;
+}
+
 .project-block {
-    width: 25vw;
-    height: 35vw;
+    width: 100%;
+    height: 80%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: hidden;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .project {
-    width: 100%;
+    width: 23vw;
+    height: 40%;
     cursor: pointer;
-    transition: all .3s ease-in-out;
-}
-
-.project:hover {
-    filter: blur(4px);
-}
-
-.long {
-    height: 100%;
-    background-size: cover;
-    background-position: top;
-}
-
-.short {
-    height: 45%;
-    background-size: cover;
-    background-position: top;
-}
-
-.project1 {
-    background-image: url("../img/flappy-bird.png");
-}
-
-.project2 {
-    background-image: url("../img/helix-jump.png");
-}
-
-.project3 {
-    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
-}
-
-.project4 {
-    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
-}
-
-.project5 {
-    background-image: url(https://www.signfix.com.au/wp-content/uploads/2017/09/placeholder-600x400.png);
+    background-color: aliceblue;
 }
 
 
