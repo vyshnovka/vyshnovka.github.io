@@ -1,11 +1,11 @@
 # Portfolio
 
-This is an amazingly simple portfolio webpage with all the important info.
+This is an amazingly simple portfolio webpage with all the important information.
   
-It consists of education/experience timeline, thesis skills description and project showcase.    
+It consists of greeting description, downloadable resume, project showcase and contacts.    
 However, the page is fully customizable, so you can add any information you want.
 
-Everything is done using pure JavaScript and a tiny bit of jQuery, no fancy frameworks.
+Everything is done using pure JavaScript and a tiny bit of jQuery, so no fancy frameworks.
 
 Feel free to use it as a template, but don't forget to mention me somewhere.
 
