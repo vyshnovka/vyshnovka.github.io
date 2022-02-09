@@ -1,7 +1,7 @@
 var countClick = 0;
 
 function copyEmail() {
-    navigator.clipboard.writeText("viktoria.zheneral@gmail.com");
+    navigator.clipboard.writeText("vyshnovka@gmail.com");
 
     countClick++;
 
@@ -24,7 +24,7 @@ function copyEmail() {
             document.getElementById('copy-email').removeAttribute("onclick");
             break;
         default:
-            document.getElementById('copy-email').innerHTML = "Okay, fine, <b>viktoria.zheneral@gmail.com</b>."
+            document.getElementById('copy-email').innerHTML = "Okay, fine, <b>vyshnovka@gmail.com</b>."
             break;
     }
 }
