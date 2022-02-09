@@ -64,8 +64,8 @@
 }
 
 .me {
-    width: 40vw;
-    height: 40vw;
+    width: 38vw;
+    height: 38vw;
 }
 
 
@@ -118,6 +118,29 @@
     height: 40%;
     cursor: pointer;
     background-color: aliceblue;
+    background-position: center;
+    background-size: cover;
+}
+
+.game1 {
+    background-image: url("../img/flappy-bird.png");
+}
+
+.game2 {
+    background-image: url("../img/helix-jump.png");
+}
+
+.game3 {
+}
+
+.game4 {
+}
+
+.app1 {
+}
+
+.app2 {
+    background-image: url("../img/karate-md.png");
 }
 
 
