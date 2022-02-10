@@ -96,18 +96,18 @@
 .apps {
     margin-left: 7vw;
     width: 23vw;
-    height: 90vh;
+    height: 80vh;
 }
 
 .games {
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
 }
 
 .header {
-    margin: 4vh 0 0 0;
+    margin: 3vh 0 0 0;
     width: 100%;
-    height: 8vh;
+    height: 7vh;
     font-size: 3.2vw;
     font-weight: bold;
     color: #22222a;
@@ -116,13 +116,13 @@
 .description {
     margin: 0;
     width: 100%;
-    height: 10vh;
+    height: 9vh;
     font-size: 2.2vw;
 }
 
 .project-block {
     width: 100%;
-    height: 68vh;
+    height: 61vh;
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -132,7 +132,7 @@
 
 .project {
     width: 22.6vw;
-    height: 40%;
+    height: 42%;
     cursor: pointer;
     background-position: center;
     background-size: cover;
