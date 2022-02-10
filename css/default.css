@@ -134,7 +134,6 @@
     width: 23vw;
     height: 40%;
     cursor: pointer;
-    background-color: aliceblue;
     background-position: center;
     background-size: cover;
 }
@@ -148,6 +147,7 @@
 }
 
 .game3 {
+    background-image: url("../img/cube-surfer.png");
 }
 
 .game4 {
