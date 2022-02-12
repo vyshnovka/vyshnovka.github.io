@@ -23,10 +23,11 @@
 <!-- ?maybe i should come back to the landing page idea and delete this damn ugly menu... -->
 <body>
     <div class="menu">
-        <p class="menu-item menu-item-chosen" onclick="menuItem(this); show('about');">About</p>
-        <p class="menu-item" onclick="menuItem(this); show('resume');">Resume</p>
-        <p class="menu-item" onclick="menuItem(this); show('work');">Projects</p>
-        <p class="menu-item" onclick="menuItem(this); show('contact');">Contact me</p>
+        <!-- <p class="menu-item">vyshnovka</p> -->
+        <p class="menu-item small-text menu-item-chosen" onclick="menuItem(this); show('about');">About</p>
+        <p class="menu-item small-text" onclick="menuItem(this); show('resume');">Resume</p>
+        <p class="menu-item small-text" onclick="menuItem(this); show('work');">Projects</p>
+        <p class="menu-item small-text" onclick="menuItem(this); show('contact');">Contact me</p>
     </div>
 
     <div class="container" id="about">
@@ -54,7 +55,7 @@
         <!-- ?looks a bit empty and overfilled at the same time -->
         <div class="games">
             <p class="header">Games</p>
-            <p class="description">Here are some of the best games that I've made eather to showcase my Unity skills or just for fun.</p>
+            <p class="description small-text">Here are some of the best games that I've made eather to showcase my Unity skills or just for fun.</p>
             <div class="project-block">
                 <div class="project game1" onClick="goLink('https://vyshnovka.github.io/flappy-bird/')">
                     <div class="name-hover">
@@ -70,7 +71,7 @@
                 </div>
                 <div class="project game3" onClick="goLink('https://vyshnovka.github.io/cube-surfer/')">
                     <div class="name-hover">
-                        <p><b>Cube Surfer clone</b></p>
+                        <p><b>Cube Surfer mechanics</b></p>
                         <p class="no-margin">Main mechanics from the Cube Surfer game on Unity using DreamTeck plugin.</p>
                     </div>
                 </div>
@@ -85,7 +86,7 @@
 
         <div class="apps">
             <p class="header">Apps</p>
-            <p class="description">I'm also interested in developing web applications.</p>
+            <p class="description small-text">I'm also interested in developing web applications.</p>
             <div class="project-block">
                 <div class="project app1" onClick="goLink('http://karatemd.org/')">
                     <div class="name-hover">
@@ -94,7 +95,7 @@
                     </div>
                 </div>
                 <!-- !change preview -->
-                <div class="project app2">
+                <div class="project app2" onClick="goLink('https://github.com/vyshnovka/schedoler')">
                     <div class="name-hover">
                         <p><b>ScheDOler</b></p>
                         <p class="no-margin">Desktop application for scheduling tasks on Electron.</p>
