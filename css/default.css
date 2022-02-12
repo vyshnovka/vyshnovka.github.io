@@ -9,7 +9,7 @@
     justify-content: flex-start;
 }
 
-.menu:first-child {
+.menu-item:first-child {
     padding-left: 50vw;
 }
 
@@ -143,6 +143,27 @@
     cursor: pointer;
     background-position: center;
     background-size: cover;
+}
+
+.name-hover {
+    padding: 0 10%;
+    width: 80%;
+    height: 100%;
+    background-color: #22222a;
+    font-size: 2vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+.name-hover p:first-child {
+    font-size: 2.4vw;
+}
+
+.name-hover:hover {
+    opacity: 1;
 }
 
 .game1 {
