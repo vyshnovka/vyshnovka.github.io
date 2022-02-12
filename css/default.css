@@ -21,6 +21,11 @@
     z-index: 100;
 }
 
+.menu-item-chosen {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .container {
     padding: 0 10vw;
     width: 80vw;

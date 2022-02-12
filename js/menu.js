@@ -1,4 +1,4 @@
 function menuItem(item) {
-    $(".menu>p.bold").removeClass("bold");
-    $(item).addClass("bold");
+    $(".menu>p.menu-item-chosen").removeClass("menu-item-chosen");
+    $(item).addClass("menu-item-chosen");
 }
