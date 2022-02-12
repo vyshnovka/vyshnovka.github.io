@@ -157,11 +157,12 @@
 }
 
 .app1 {
-    background-image: url("../img/schedoler.png");
+    background-image: url("../img/karate-md.png");
 }
 
 .app2 {
-    background-image: url("../img/karate-md.png");
+    cursor: default;
+    /* background-image: url("../img/schedoler.png"); */
 }
 
 
