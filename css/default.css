@@ -69,8 +69,8 @@
 }
 
 .me {
-    width: 40vw;
-    height: 40vw;
+    width: 77vh;
+    height: 77vh;
 }
 
 
@@ -137,6 +137,7 @@
     cursor: pointer;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 .name-hover {
@@ -144,20 +145,21 @@
     width: 80%;
     height: 100%;
     background-color: #2b2b35;
+    /* background-color: rgba(43, 43, 53, 0.6); */
     font-size: 2vw;
     color: white;
     display: flex;
     flex-direction: column;
-    /* opacity: 0; */
+    opacity: 1;
     transition: 0.3s ease;
-}
-
-.name-hover p:first-child {
-    font-size: 2.4vw;
 }
 
 .name-hover:hover {
     opacity: 0;
+}
+
+.name-hover p:first-child {
+    font-size: 2.4vw;
 }
 
 .game1 {
