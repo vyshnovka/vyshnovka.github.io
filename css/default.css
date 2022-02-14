@@ -189,3 +189,7 @@
 
 /** CONTACTS */
 
+.left-part a:not(.button) {
+    text-decoration: none;
+    color: #2b2b35;
+}
