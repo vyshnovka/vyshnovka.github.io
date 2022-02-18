@@ -34,6 +34,8 @@
 
     .big-text {
         font-size: 6vh;
+        font-weight: bolder;
+        letter-spacing: 0;
     }
 
     .small-text {
