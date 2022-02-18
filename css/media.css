@@ -93,6 +93,7 @@
     /** PROJECT SHOWCASE */
 
     .mobile-showcase {
+        height: auto !important;
         position: static;
     }
 
