@@ -24,6 +24,10 @@
         flex-direction: column;
     }
 
+    b {
+        font-weight: 700;
+    }
+
 
     /** ABOUT WITH PICTURE */
 
@@ -33,13 +37,12 @@
     }
 
     .big-text {
-        font-size: 6vh;
-        font-weight: bold;
-        letter-spacing: -2px;
+        font-size: 7vh;
+        font-weight: 700;
     }
 
     .small-text {
-        font-size: 2.5vh;
+        font-size: 2.7vh;
     }
 
     .picture {
