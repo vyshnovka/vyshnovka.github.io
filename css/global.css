@@ -1,10 +1,10 @@
 /** GLOBAL SETTINGS */
 
-@font-face { 
+/* @font-face { 
     font-family: Pixeltype; 
     src: url('../fonts/Pixeltype.ttf');
     font-weight: normal;
-}
+} */
 
 @font-face { 
     font-family: DisposableDroid BB; 
@@ -26,6 +26,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    overflow-y: scroll;
     /* font-family: Pixeltype; */
     font-family: DisposableDroid BB;
     line-height: 140%;

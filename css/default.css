@@ -3,6 +3,7 @@
 .top {
     width: 100vw;
     height: 10vh;
+    z-index: 100;
 }
 
 .hamburger {
@@ -25,7 +26,6 @@
 .menu-item {
     margin: 2.5vw;
     cursor: pointer;
-    z-index: 100;
 }
 
 .menu-item-chosen {
@@ -102,7 +102,7 @@
 }
 
 
-/** PROJECT BLOCKS */
+/** PROJECT SHOWCASE */
 
 .apps {
     margin-left: 9vw;
