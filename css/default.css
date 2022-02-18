@@ -1,8 +1,17 @@
 /** MENU AND CONTAINER */
 
-.menu {
+.top {
     width: 100vw;
     height: 10vh;
+}
+
+.hamburger {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
