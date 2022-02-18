@@ -22,6 +22,7 @@
         height: auto;
         display: flex;
         flex-direction: column;
+        letter-spacing: normal;
     }
 
 
@@ -41,13 +42,13 @@
     }
 
     .picture {
+        margin-top: 5vh;
         width: 100%;
-        height: 40vh;
         justify-content: flex-end;
     }
 
     .me {
-        width: 35vh;
-        height: 35vh;
+        width: 100%;
+        height: 100%;
     }
 }
