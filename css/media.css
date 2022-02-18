@@ -24,10 +24,6 @@
         flex-direction: column;
     }
 
-    b {
-        font-weight: 700;
-    }
-
 
     /** ABOUT WITH PICTURE */
 
@@ -37,8 +33,7 @@
     }
 
     .big-text {
-        font-size: 7vh;
-        font-weight: 700;
+        font-size: 6.5vh;
     }
 
     .small-text {
@@ -46,7 +41,7 @@
     }
 
     .picture {
-        margin-top: 5vh;
+        margin-top: 4vh;
         width: 100%;
         justify-content: flex-end;
     }

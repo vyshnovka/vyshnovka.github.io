@@ -17,6 +17,11 @@ body {
     background-color: #d1e5eb;
 }
 
+body * { 
+    -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering: optimizeLegibility !important;
+}
+
 .no-margin {
     padding: 0;
     margin: 0;
