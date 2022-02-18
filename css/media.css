@@ -82,9 +82,9 @@
     }
 
     .mobile-only {
-        margin-top: 1vh;
+        margin: 2vh 0 4vh 0;
         width: 100%;
-        display: inline;
+        display: block;
         text-align: left;
     }
 
