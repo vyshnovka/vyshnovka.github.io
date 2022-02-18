@@ -25,6 +25,7 @@ body {
 
 .letter-space-Safari {
     letter-spacing: -2px;
+    font-weight: 900 !important;
 }
 
 
