@@ -3,6 +3,7 @@
 @font-face { 
     font-family: Pixeltype; 
     src: url('../fonts/Pixeltype.ttf');
+    font-weight: normal;
 }
 
 html {
@@ -15,11 +16,6 @@ body {
     overflow-x: hidden;
     font-family: Pixeltype;
     background-color: #d1e5eb;
-}
-
-body * { 
-    -webkit-font-smoothing: subpixel-antialiased !important; 
-    text-rendering: optimizeLegibility !important;
 }
 
 .no-margin {

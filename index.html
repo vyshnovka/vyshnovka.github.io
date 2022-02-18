@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="css/media.css">
 
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/browser.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/copy.js"></script>
     <script src="js/link.js"></script>
 </head>
 
-<body>
+<body onload="browserDetect();">
     <div class="top">
         <div class="hamburger hamburger--boring" onclick="displayMenu();">
             <div class="hamburger-box">
