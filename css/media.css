@@ -1,3 +1,10 @@
+@media screen and (orientation:landscape) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 @media screen and (max-width: 992px) {
     body {
         line-height: 90%;
@@ -47,7 +54,7 @@
 
     .small-text {
         letter-spacing: -1.8px;
-        font-size: 2.5vh;
+        font-size: 2.6vh;
     }
 
     .picture {
@@ -64,7 +71,7 @@
     /** RESUME PAGE */
 
     .button {
-        padding-top: 0.5vh;
+        padding: 2.5% 5% 2% 5%;
         font-size: 2.5vh;
     }
 }
