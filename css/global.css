@@ -6,6 +6,18 @@
     font-weight: normal;
 }
 
+@font-face { 
+    font-family: DisposableDroid BB; 
+    src: url('../fonts/DisposableDroidBB.ttf');
+    font-weight: normal;
+}
+
+@font-face { 
+    font-family: DisposableDroid BB; 
+    src: url('../fonts/DisposableDroidBB_bld.ttf');
+    font-weight: bold;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,21 +26,15 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    font-family: Pixeltype;
+    /* font-family: Pixeltype; */
+    font-family: DisposableDroid BB;
+    line-height: 140%;
     background-color: #d1e5eb;
 }
 
 .no-margin {
     padding: 0;
     margin: 0;
-}
-
-.letter-space-Safari {
-    letter-spacing: -3.7px;
-}
-
-.letter-space-Safari-b {
-    letter-spacing: -0.35px;
 }
 
 
