@@ -3,6 +3,10 @@
         line-height: 90%;
     }
 
+    .mobile-only {
+        display: block;
+    }
+
 
     /** ADAPTIVE MENU */
 
@@ -60,7 +64,7 @@
     /** RESUME PAGE */
 
     .button {
-        padding-top: 1vh;
+        padding-top: 0.5vh;
         font-size: 2.5vh;
     }
 }

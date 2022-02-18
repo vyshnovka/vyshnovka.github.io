@@ -37,6 +37,10 @@ body {
     margin: 0;
 }
 
+.mobile-only {
+    display: none;
+}
+
 
 /** CUSTOM SCROLLBAR */
 
