@@ -1,5 +1,6 @@
 @media screen and (orientation:landscape) {
     .container {
+        height: 90vh;
         display: flex;
         flex-direction: row;
     }
