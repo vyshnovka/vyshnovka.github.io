@@ -24,8 +24,11 @@ body {
 }
 
 .letter-space-Safari {
-    letter-spacing: -2px;
-    font-weight: 900 !important;
+    letter-spacing: -3.5px;
+}
+
+.letter-space-Safari-b {
+    letter-spacing: -0.5px;
 }
 
 

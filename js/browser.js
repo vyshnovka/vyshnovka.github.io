@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //
     } else if (userAgent.match(/safari/i)) {
         $(".big-text").addClass("letter-space-Safari");
-        $("b").addClass("letter-space-Safari");
+        $("b").addClass("letter-space-Safari-b");
     } else if (userAgent.match(/opr\//i)) {
         //
     } else if (userAgent.match(/edg/i)) {

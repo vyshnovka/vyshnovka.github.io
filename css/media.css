@@ -33,7 +33,7 @@
     }
 
     .big-text {
-        font-size: 6.5vh;
+        font-size: 6.7vh;
     }
 
     .small-text {
@@ -41,7 +41,7 @@
     }
 
     .picture {
-        margin-top: 4vh;
+        margin-top: 3vh;
         width: 100%;
         justify-content: flex-end;
     }
