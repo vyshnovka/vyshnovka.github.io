@@ -6,8 +6,6 @@ function menuItem(item) {
 function showPage(element) {
     $(".container").hide();
     $("#" + element).show();
-
-    // TODO add transition and animations
 }
 
 function displayMenu() {

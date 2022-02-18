@@ -7,7 +7,7 @@
 */
 
 .hamburger {
-    padding: 15px 15px;
+    padding: 20px;
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
@@ -29,8 +29,8 @@
 }
 
 .hamburger-box {
-    width: 35px;
-    height: 24px;
+    width: 25px;
+    height: 20px;
     display: inline-block;
     position: relative;
 }
@@ -38,11 +38,10 @@
 .hamburger-inner {
     display: block;
     top: 50%;
-    margin-top: -2px;
 }
 
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 35px;
+    width: 25px;
     height: 4px;
     background-color: #22222a;
     position: absolute;
@@ -57,11 +56,11 @@
 }
 
 .hamburger-inner::before {
-    top: -10px;
+    top: -7.5px;
 }
 
 .hamburger-inner::after {
-    bottom: -10px;
+    bottom: -7px;
 }
 
 .hamburger--boring .hamburger-inner, .hamburger--boring .hamburger-inner::before, .hamburger--boring .hamburger-inner::after {
