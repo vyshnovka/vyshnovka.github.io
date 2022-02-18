@@ -1,6 +1,5 @@
 @media screen and (orientation:landscape) {
     .container {
-        height: 90vh;
         display: flex;
         flex-direction: row;
     }
@@ -93,7 +92,6 @@
     /** PROJECT SHOWCASE */
 
     .mobile-showcase {
-        height: auto !important;
         position: static;
     }
 
