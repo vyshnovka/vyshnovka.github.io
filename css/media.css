@@ -60,12 +60,15 @@
     }
 
     .big-text {
-        font-size: 11vw;
+        font-size: 5vh;
+        letter-spacing: -2px;
+        line-height: 7vw;
     }
 
     .small-text {
-        letter-spacing: -1.8px;
         font-size: 2.6vh;
+        letter-spacing: -1.8px;
+        line-height: 1.8vh;
     }
 
     .picture {
@@ -83,7 +86,7 @@
     /** RESUME PAGE */
 
     .button {
-        padding: 2.5% 5% 2% 5%;
+        padding: 3% 5% 2.5% 5%;
         margin-top: 2vh;
         font-size: 2.5vh;
     }
@@ -140,6 +143,7 @@
         height: 90%;
         background-color: rgba(43, 43, 53, 0.9);
         font-size: 2.5vh;
+        line-height: 4vw;
     }
 
     .name-hover p:first-child {

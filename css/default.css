@@ -55,14 +55,15 @@
 .big-text {
     margin-top: 0;
     font-size: 5.5vw;
-    letter-spacing: -4px;
+    letter-spacing: -0.4vw;
     font-weight: bold;
     color: #22222a;
 }
 
 .small-text {
     font-size: 2.2vw;
-    letter-spacing: -2px;
+    letter-spacing: -0.17vw;
+    line-height: 1.7vw;
     color: #2b2b35;
 }
 
@@ -147,7 +148,7 @@
     height: 100%;
     background-color: #2b2b35;
     font-size: 1.8vw;
-    letter-spacing: -1.65px;
+    letter-spacing: -0.15vw;
     color: white;
     display: flex;
     flex-direction: column;
@@ -162,6 +163,7 @@
 .name-hover p:first-child {
     margin-bottom: 2.8vh;
     font-size: 2.1vw;
+    letter-spacing: -0.14vw;
 }
 
 .game1 {
