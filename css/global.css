@@ -42,6 +42,10 @@ body {
     display: none;
 }
 
+.hide-for-mobile {
+    display: contents;
+}
+
 
 /** CUSTOM SCROLLBAR */
 

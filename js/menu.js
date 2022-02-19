@@ -6,10 +6,12 @@ function menuItem(item) {
 function showPage(element) {
     $(".container").hide();
     $("#" + element).show();
-
-    $(".top").css("background-color", "#d1e5eb");
-    $(".hamburger").removeClass("is-active");
-    $(".hide-for-mobile").hide();
+    
+    if ($(".hamburger").is(":visible")) {
+        $(".top").css("background-color", "#d1e5eb");
+        $(".hamburger").removeClass("is-active");
+        $(".menu").hide();
+    }
 }
 
 function displayMenu() {
