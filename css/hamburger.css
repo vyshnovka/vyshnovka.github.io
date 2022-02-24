@@ -4,6 +4,8 @@
     @author Jonathan Suh @jonsuh
     @site https://jonsuh.com/hamburgers
     @link https://github.com/jonsuh/hamburgers
+
+    Modified by @vyshnovka
 */
 
 .hamburger {
@@ -64,11 +66,7 @@
 }
 
 .hamburger--boring .hamburger-inner, .hamburger--boring .hamburger-inner::before, .hamburger--boring .hamburger-inner::after {
-    transition-property: none;
-}
-
-.hamburger--boring.is-active .hamburger-inner {
-    transform: rotate(45deg);
+    transition: 0.2s ease;
 }
 
 .hamburger--boring.is-active .hamburger-inner::before {
@@ -78,5 +76,4 @@
 
 .hamburger--boring.is-active .hamburger-inner::after {
     bottom: 0;
-    transform: rotate(-90deg);
 }
