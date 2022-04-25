@@ -18,7 +18,7 @@ function copyEmail() {
         case 4:
             document.getElementById('copy-email').innerHTML = "Why are you so persistent?.."
             break;
-        case 250:
+        case 50:
             document.getElementById('copy-email').innerHTML = "Congratulations, you've wasted a few minutes of your life!"
             document.getElementById('copy-email').style.cursor = "default";
             document.getElementById('copy-email').removeAttribute("onclick");
