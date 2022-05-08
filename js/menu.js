@@ -4,7 +4,7 @@ function menuItem(item) {
 }
 
 function showPage(element) {
-    $(".container").hide();
+    $(".left-part").hide();
     $("#" + element).show();
     
     if ($(".hamburger").is(":visible")) {
