@@ -1,4 +1,4 @@
-/** MENU AND CONTAINER */
+/** MENU */
 
 .top {
     width: 100vw;
@@ -32,6 +32,8 @@
     font-weight: bold;
 }
 
+/** MAIN STRUCTURE */
+
 .container {
     padding: 0 10vw;
     width: 80vw;
@@ -44,8 +46,27 @@
     bottom: 0;
 }
 
+.link {
+    cursor: pointer;
+}
 
-/** GREETING PAGE */
+
+/** PICTURE SIDE */
+
+.picture {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.me {
+    width: 77vh;
+    height: 77vh;
+}
+
+
+/** CONTENT SIDE */
 
 .left-part {
     width: 50%;
@@ -67,26 +88,11 @@
     color: #2b2b35;
 }
 
-.link {
-    cursor: pointer;
-}
 
-.picture {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.me {
-    width: 77vh;
-    height: 77vh;
-}
-
-
-/** RESUME PAGE */
+/** RESUME */
 
 .button {
+    margin-top: 4vh;
     padding: 1vw 2vw;
     display: inline-block;
     background-color: #22222a;
@@ -100,94 +106,6 @@
 
 .button:hover {
     background-color: #2b2b35;
-}
-
-
-/** PROJECT SHOWCASE */
-
-.apps {
-    margin-left: 9vw;
-    width: 22vw;
-    height: 80vh;
-}
-
-.games {
-    width: 49vw;
-    height: 80vh;
-}
-
-.description {
-    margin: 6vh 0 0 0;
-    width: 100%;
-    height: 10vh;
-    text-align: justify;
-}
-
-.project-block {
-    width: 100%;
-    height: 64vh;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: flex-start;
-}
-
-.project {
-    width: 22vw;
-    height: 40%;
-    cursor: pointer;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.name-hover {
-    padding: 0 10%;
-    width: 80%;
-    height: 100%;
-    background-color: #2b2b35;
-    font-size: 1.8vw;
-    letter-spacing: -0.15vw;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    opacity: 1;
-    transition: 0.3s ease;
-}
-
-.name-hover:hover {
-    opacity: 0;
-}
-
-.name-hover p:first-child {
-    margin-bottom: 2.8vh;
-    font-size: 2.1vw;
-    letter-spacing: -0.14vw;
-}
-
-.game1 {
-    background-image: url("../img/mustard-party-2.png");
-}
-
-.game2 {
-    background-image: url("../img/helix-jump.png");
-}
-
-.game3 {
-    background-image: url("../img/flappy-bird.png");
-}
-
-.game4 {
-    background-image: url("../img/cube-surfer.png");
-}
-
-.app1 {
-    background-image: url("../img/karate-md.png");
-}
-
-.app2 {
-    background-image: url("../img/schedoler.png");
 }
 
 

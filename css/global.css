@@ -37,14 +37,6 @@ body {
     margin: 0;
 }
 
-.mobile-only {
-    display: none;
-}
-
-.hide-for-mobile {
-    display: contents;
-}
-
 
 /** CUSTOM SCROLLBAR */
 

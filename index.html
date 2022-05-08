@@ -20,7 +20,6 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/copy.js"></script>
-    <script src="js/link.js"></script>
 </head>
 
 <body>
@@ -38,92 +37,37 @@
         </div>
     </div>
 
-    <div class="container" id="about">
-        <div class="left-part">
+    <div class="container">
+        <div class="left-part" id="about">
             <p class="big-text">Howdy, partner!</p>
-            <p class="small-text">It's me, <b>Victoria</b>, and I'm a highly-motivated and enthusiastic junior developer.</p>
-            <p class="small-text">I'm currently (and protractedly) interested in <b>Web applications</b>, <b>Game development</b> and <b>3D modeling</b>.</p>
+            <p class="small-text">It's me, <b>Victoria</b>, and I'm a highly-motivated and enthusiastic game developer.</p>
+            <p class="small-text">Since the beginning of my journey I've been working on <b>indie games</b> and step by step going along the path of creating smth worthwhile.</p>
             <p class="small-text">Looking for help with inspiration, ready to join some cool and intriguing projects.</p>
-            <p class="small-text link" id="copy-email" onclick="copyEmail()">Click <u><b>here</b></u> to copy my email.</p>
         </div>
-        <div class="picture">
-            <img class="me" src="img/picture.png" alt="My awesome picture, which is not here for some reason.">
-        </div>
-    </div>
 
-    <div class="container" id="resume" style="display: none;">
-        <div class="left-part">
+        <div class="left-part" id="resume" style="display: none;">
             <p class="big-text">Long story short...</p>
             <p class="small-text">Bachelor's degree in <b>Applied Informatics</b>, currently pursuing Master's degree in <b>Computer Science</b>.</p>
-            <p class="small-text">Programming stack: <b>JavaScript</b>, <b>C#</b>, some basic knowledge of <b>C/C++</b>, <b>Java</b>, <b>PHP</b> and <b>Prolog</b>.</p>
-            <p class="small-text">More specifically, <b>Unity</b> for gamedev, <b>Node.js</b> as main web tool and <b>Git</b> for version control.</p>
+            <p class="small-text">Programming stack: confident in <b>JavaScript</b> and <b>C#</b>, have some knowledge of <b>C/C++</b>.</p>
+            <p class="small-text">More specifically, good at <b>Unity2D/3D</b>, familiar with <b>Unreal Engine</b>, sometimes using <b>Blender</b> and <b>Git</b>.</p>
             <a class="button" href="docs/VICTORIA-ABALINA-CV.pdf" target="_blank">Download PDF</a>
         </div>
-        <div class="picture">
-            <img class="me" src="img/picture.png" alt="My awesome picture, which is not here for some reason.">
-        </div>
-    </div>
 
-    <div class="container mobile-showcase" id="work" style="display: none;">
-        <p class="big-text mobile-only">Take a look!</p>
-        <div class="games">
-            <p class="description small-text">Here are some of the best games that I've made eather to showcase my Unity skills or just for fun.</p>
-            <div class="project-block">
-                <div class="project game1" onClick="goLink('https://github.com/vyshnovka/mustard-party-2')">
-                    <div class="name-hover">
-                        <p><b>Mustard Party 2</b></p>
-                        <p class="no-margin">Mobile game inspired by The Awesome Adventures of Captain Spirit.</p>
-                    </div>
-                </div>
-                <div class="project game2" onClick="goLink('https://vyshnovka.github.io/helix-jump/')">
-                    <div class="name-hover">
-                        <p><b>Helix Jump clone</b></p>
-                        <p class="no-margin">Simplified clone of the Helix Jump game on Unity. Some mechanics are excluded.</p>
-                    </div>
-                </div>
-                <div class="project game3" onClick="goLink('https://github.com/vyshnovka/flappy-bird')">
-                    <div class="name-hover">
-                        <p><b>Flappy Bird clone</b></p>
-                        <p class="no-margin">Almost exact Flappy Bird game clone on Unity. Great choice as a first project.</p>
-                    </div>
-                </div>
-                <div class="project game4" onClick="goLink('https://vyshnovka.github.io/cube-surfer/')">
-                    <div class="name-hover">
-                        <p><b>Cube Surfer mechanics</b></p>
-                        <p class="no-margin">Main mechanics from the Cube Surfer game on Unity using DreamTeck plugin.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="left-part" id="work" style="display: none;">
+            <p class="big-text">What am I doing?</p>
+            <p class="small-text">To view a showcase of released games (and maybe play a bit), visit my <u><b><a href="https://vyshnovka.itch.io/" target="_blank">itch.io</a></b></u> profile.</p>
+            <p class="small-text">Source code for almost all of my projects can be found on <u><b><a href="https://github.com/vyshnovka" target="_blank">GitHub</a></b></u>. If in need, all is open source. But don't forget to credit me.</p>
+            <p class="small-text">Seriously. Don't.</p>
         </div>
-        <p class="big-text mobile-only">By the way...</p>
-        <div class="apps">
-            <p class="description small-text">I'm also interested in developing web applications.</p>
-            <div class="project-block">
-                <div class="project app1" onClick="goLink('http://karatemd.org/')">
-                    <div class="name-hover">
-                        <p><b>FNK RM WKF website</b></p>
-                        <p class="no-margin">Landing page for FNK RM WKF using Express.js and Heroku for hosting.</p>
-                    </div>
-                </div>
-                <!-- ?change preview -->
-                <div class="project app2" onClick="goLink('https://github.com/vyshnovka/schedoler')">
-                    <div class="name-hover">
-                        <p><b>ScheDOler</b></p>
-                        <p class="no-margin">Desktop application for scheduling tasks on Electron.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="container" id="contact" style="display: none;">
-        <div class="left-part">
+        <div class="left-part" id="contact" style="display: none;">
             <p class="big-text">Keep in touch!</p>
-            <p class="small-text">Send an email to <b><a href="mailto:vyshnovka@gmail.com">vyshnovka@gmail.com</a></b> if you are interested in collaboration.</p>
-            <p class="small-text">Source code of my projects can be found on <b><a href="https://github.com/vyshnovka">@vyshnovka</a></b>'s GitHub profile.</p>
-            <p class="small-text">You can also write to <b><a href="https://discordapp.com/users/344130090583719938/">vikulishna#1407</a></b> on Discord for a more casual talk.</p>
+            <p class="small-text" id="copy-email" onclick="copyEmail()">Send me an <u class="link"><b>email</b></u> if you are interested in collaboration.</p>
+            <p class="small-text">Also connect with me on <u><b><a href="https://www.linkedin.com/in/vyshnovka/" target="_blank">LinkedIn</a></b></u> 'cause it seems professional for some reason.</p>
+            <p class="small-text">By the way, you can write me on <u><b><a href="https://discordapp.com/users/344130090583719938/" target="_blank">Discord</a></b></u> for a more casual talk. Always willing to chat.</p>
             <p class="small-text">See ya, partner!</p>
         </div>
+
         <div class="picture">
             <img class="me" src="img/picture.png" alt="My awesome picture, which is not here for some reason.">
         </div>
