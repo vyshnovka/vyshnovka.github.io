@@ -78,14 +78,14 @@
     font-size: 5.5vw;
     letter-spacing: -0.4vw;
     font-weight: bold;
-    color: #22222a;
+    color: #241d1a;
 }
 
 .small-text {
     font-size: 2.2vw;
     letter-spacing: -0.17vw;
     line-height: 1.7vw;
-    color: #2b2b35;
+    color: #302722;
 }
 
 
@@ -95,7 +95,7 @@
     margin-top: 4vh;
     padding: 1vw 2vw;
     display: inline-block;
-    background-color: #22222a;
+    background-color: #241d1a;
     border: none;
     color: white;
     font-size: 2.2vw;
