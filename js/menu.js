@@ -8,7 +8,7 @@ function showPage(element) {
     $("#" + element).show();
     
     if ($(".hamburger").is(":visible")) {
-        $(".top").css("background-color", "#d1e5eb");
+        $(".top").css("background-color", "#c9c8c7");
         $(".hamburger").removeClass("is-active");
         $(".menu").hide();
     }
@@ -16,13 +16,13 @@ function showPage(element) {
 
 function displayMenu() {
     if ($(".hamburger").hasClass("is-active")) {
-        $(".top").css("background-color", "#d1e5eb");
+        $(".top").css("background-color", "#c9c8c7");
         $(".hamburger").removeClass("is-active");
         $(".menu").hide();
 
     }
     else {
-        $(".top").css("background-color", "#2b2b35");
+        $(".top").css("background-color", "#302722");
         $(".hamburger").addClass("is-active");
         $(".menu").show();
     }
